@@ -73,9 +73,9 @@ void ViewContacts()
 
 void DisplayAllContacts()
 {
-    for (int i = 0; i < list.Count; i++)
+    for (int i = 0; i < contactInfo.Count; i++)
     {
-        new help().DisplayInfo(list[i]);
+        Console.WriteLine(contactInfo.Values[i].name);
         
     }
 }
@@ -97,6 +97,7 @@ void AddContact()
     notes = Console.ReadLine();
 
     Info obj = new Info(name, mail, phone, notes);
+    contactInfo.Add(name, obj);
     list.Add(obj);
 }
 
