@@ -13,7 +13,7 @@ namespace ContactManager
     {
         public void DisplayUserInfo(ContactsInfo obj) //Method to display the contacts detail
         {
-            Console.WriteLine($"Name : {obj.name} \tNumber : {obj.phone}\temail : {obj.email}\tnotes : {obj.notes}");
+            Console.WriteLine($"Name : {obj.Name} \tNumber : {obj.Phone}\temail : {obj.Email}\tnotes : {obj.Notes}");
         }
         public void DisplayUser(int index, SortedList<string, ContactsInfo> contactsList)//Method to display the found user
         {
@@ -33,6 +33,9 @@ namespace ContactManager
                 Console.WriteLine("User Not Found");
                 return;
             }
+            Console.WriteLine();
+            DisplayUserInfo(contactsList.Values[index]);
+            Console.WriteLine();
             string choice;
             do
             {
@@ -48,17 +51,17 @@ namespace ContactManager
             switch (choice)
             {
                 case "N":
-                    contactsList.Values[index].name = GetName(contactsList);
+                    contactsList.Values[index].Name = GetName(contactsList);
                     break;
                 case "P":
-                    contactsList.Values[index].phone = GetNumber();
+                    contactsList.Values[index].Phone = GetNumber();
                     break;
                 case "NT":
                     Console.WriteLine("Enter the Notes");
-                    contactsList.Values[index].notes = Console.ReadLine();
+                    contactsList.Values[index].Notes = Console.ReadLine();
                     break;
                 case "M":
-                    contactsList.Values[index].email = GetMailId();
+                    contactsList.Values[index].Email = GetMailId();
                     break;
                 default:
                     return;
@@ -137,7 +140,7 @@ namespace ContactManager
         {
             for (int i = 0; i < contactsList.Count; i++)
             {
-                if (contactsList.Values[i].phone == phone) return i;
+                if (contactsList.Values[i].Phone == phone) return i;
             }
             return -1;
         }
@@ -146,7 +149,7 @@ namespace ContactManager
         {
             for (int i = 0; i < contactsList.Count; i++)
             {
-                if (contactsList.Values[i].name == name) return i;
+                if (contactsList.Values[i].Name == name) return i;
             }
             return -1;
         }

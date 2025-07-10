@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\Intern\\Assignment_1_Contact_Manager\\Contact_Manager\\ContactManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B0649BAC-108A-BBF5-9B1A-4DFC8B0D3766}|ContactManager.csproj|d:\\intern\\assignment_1_contact_manager\\contact_manager\\contactmanager\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0649BAC-108A-BBF5-9B1A-4DFC8B0D3766}|ContactManager.csproj|solutionrelative:utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B0649BAC-108A-BBF5-9B1A-4DFC8B0D3766}|ContactManager.csproj|d:\\intern\\assignment_1_contact_manager\\contact_manager\\contactmanager\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0649BAC-108A-BBF5-9B1A-4DFC8B0D3766}|ContactManager.csproj|solutionrelative:services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0649BAC-108A-BBF5-9B1A-4DFC8B0D3766}|ContactManager.csproj|d:\\intern\\assignment_1_contact_manager\\contact_manager\\contactmanager\\functionalities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0649BAC-108A-BBF5-9B1A-4DFC8B0D3766}|ContactManager.csproj|solutionrelative:functionalities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B0649BAC-108A-BBF5-9B1A-4DFC8B0D3766}|ContactManager.csproj|d:\\intern\\assignment_1_contact_manager\\contact_manager\\contactmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0649BAC-108A-BBF5-9B1A-4DFC8B0D3766}|ContactManager.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0649BAC-108A-BBF5-9B1A-4DFC8B0D3766}|ContactManager.csproj|d:\\intern\\assignment_1_contact_manager\\contact_manager\\contactmanager\\functionalities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0649BAC-108A-BBF5-9B1A-4DFC8B0D3766}|ContactManager.csproj|solutionrelative:functionalities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0649BAC-108A-BBF5-9B1A-4DFC8B0D3766}|ContactManager.csproj|d:\\intern\\assignment_1_contact_manager\\contact_manager\\contactmanager\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0649BAC-108A-BBF5-9B1A-4DFC8B0D3766}|ContactManager.csproj|solutionrelative:utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B0649BAC-108A-BBF5-9B1A-4DFC8B0D3766}|ContactManager.csproj|d:\\intern\\assignment_1_contact_manager\\contact_manager\\contactmanager\\contactsinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Utilities.cs",
               "DocumentMoniker": "D:\\Intern\\Assignment_1_Contact_Manager\\Contact_Manager\\ContactManager\\Utilities.cs",
               "RelativeDocumentMoniker": "Utilities.cs",
@@ -47,13 +47,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Services.cs",
               "DocumentMoniker": "D:\\Intern\\Assignment_1_Contact_Manager\\Contact_Manager\\ContactManager\\Services.cs",
               "RelativeDocumentMoniker": "Services.cs",
-              "ToolTip": "D:\\Intern\\Assignment_1_Contact_Manager\\Contact_Manager\\ContactManager\\Services.cs",
-              "RelativeToolTip": "Services.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAkwCUAAAAeAAAAAAAAAA==",
+              "ToolTip": "D:\\Intern\\Assignment_1_Contact_Manager\\Contact_Manager\\ContactManager\\Services.cs*",
+              "RelativeToolTip": "Services.cs*",
+              "ViewState": "AgIAABgAAAAAAAAAAIAwwCUAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-09T16:36:18.588Z",
               "EditorCaption": ""
@@ -73,13 +73,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Functionalities.cs",
               "DocumentMoniker": "D:\\Intern\\Assignment_1_Contact_Manager\\Contact_Manager\\ContactManager\\Functionalities.cs",
               "RelativeDocumentMoniker": "Functionalities.cs",
               "ToolTip": "D:\\Intern\\Assignment_1_Contact_Manager\\Contact_Manager\\ContactManager\\Functionalities.cs",
               "RelativeToolTip": "Functionalities.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAQwFkAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAgwFkAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-09T16:36:16.039Z",
               "EditorCaption": ""

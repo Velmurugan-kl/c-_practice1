@@ -8,17 +8,17 @@ namespace ContactManager
 {
     internal class ContactsInfo
     {
-        public string name;
-        public string email;
-        public string phone;
-        public string notes;
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public string Phone { get; set; }
+        public string Notes { get; set; }
 
         public ContactsInfo(string name, string email, string phone, string notes)
         {
-            this.name = name;
-            this.email = email;
-            this.phone = phone;
-            this.notes = notes;
+            this.Name = name;
+            this.Email = email;
+            this.Phone = phone;
+            this.Notes = notes;
         }
     }
 }
